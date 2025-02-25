@@ -1,0 +1,15 @@
+:root{
+    /*? FONT */
+    --font: "Rubik", serif;
+
+    /*? COLORS */
+    --bg: #F5F6FA;
+    --btnEnviar: #5357B6;
+    --btnEliminar: #ED6368;
+    --btnCancelar: #67727E;
+    --inputComment: #FFFFFF;
+    --text: #67727E;
+    --title: #334253;
+    --btnLikes: #C5C6EF;
+    --lineTime: #979797;
+}
