@@ -16,12 +16,10 @@
 </head>
 
 <body>
-
-  <!-- CONETENDOR -->
   <main class="container">
     <div class="container__section">
       <div class="conatiner__conversetion">
-        <!-- GENERAR COMENTARIO -->
+        <!--?COMENTARIO -->
         <form id="commentForm">
           <img src="./images/avatars/image-juliusomo.png" alt="foto de juliusomo" class="img__avatar">
           <textarea type="text" id="commentInput" placeholder="Add a comment..."></textarea>
@@ -30,45 +28,9 @@
 
         <!-- COMENTARIOS -->
         <section class="comments">
-          <!-- Aquí se cargan los comentarios -->
-          <article class="comment">
-            <!-- HEADER COMENTARIO -->
-            <header class="comment__header">
-              <img src="./images/avatars/image-amyrobson.webp" alt="Foto usuario" class="img__user">
-              <div class="comment__info">
-                <h4 class="user">amyrobson</h4>
-                <p class="time__comment">1 month ago</p>
-              </div>
-            </header>
-
-            <!-- CUERPO DEL COMENTARIO -->
-            <div class="comment__body">
-              <p class="comment__text">
-                Impressive! Though it seems the drag feature could be improved.
-                But overall it looks incredible. You’ve nailed the design and the responsiveness at
-                various breakpoints works really well.
-              </p>
-            </div>
-
-            <!-- ACCIONES (LIKES Y RESPUESTA) -->
-            <div class="comment__actions">
-              <div class="comment__likes">
-                <a href="#" class="btn__like" aria-label="Aumentar likes">
-                  <img src="./images/icon-plus.svg" alt="icon plus" class="icon__plus">
-                </a>
-                <p class="likes">12</p>
-                <a href="#" class="btn__like" aria-label="Disminuir likes">
-                  <img src="./images/icon-minus.svg" alt="icon minus" class="icon__minus">
-                </a>
-              </div>
-              <a href="#" class="btn__answer" aria-label="Responder comentario">
-                <img src="./images/icon-reply.svg" alt="icon reply"> Reply
-              </a>
-            </div>
-          </article>
+          <!-- Aquí se cargan los comentarios dinámicamente -->
         </section>
-
-      </div> <!--.container__section -->
+      </div>
     </div>
   </main>
 
