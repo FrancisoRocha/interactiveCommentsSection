@@ -46,3 +46,121 @@ body {
     background-color: #2E54F0;
 }
 
+.content__comments{
+    width: 34.3rem;
+    height: 114.4rem;
+    background-color: black;
+    margin: 0 auto;
+}
+
+@media(min-width: 768px){
+    .content__comments{
+        width: 73rem;
+        height: 89.6rem;
+    }
+}
+
+/* FORM COMMENT */
+.comment__form{
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 34.3rem;
+    height: 18.9rem;
+    border-radius: .8rem;
+    background-color: var(--inputComment);
+    bottom: 2rem;
+}
+
+/* DISPOSITIVOS MOVILES */
+.comment__form{
+    align-items: flex-start;
+    grid-template-areas: 
+        "input input"
+        "avatar button";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+@media(min-width: 768px){
+    .comment__form{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 73rem;
+        height: 14.4rem;
+    }
+}
+
+.comment__img{
+    grid-area: avatar;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-left: 2rem;
+}
+
+@media(min-width: 768px){
+    .comment__img{
+        width: 4rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+}
+
+.comment__text{
+    grid-area: input;
+    width: 31.1rem;
+    height: 9.6rem;
+    padding: 1rem;
+    resize: none;
+    border-radius: .8rem;
+    border: .1rem solid #E9EBF0;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.comment__text:focus{
+    border-color: #2E54F0;
+    border-width: 0.1rem;
+    outline: none;
+}
+
+@media(min-width: 768px){
+    .comment__text{
+        width: 50.6rem;
+        height: 11rem;
+        margin-top: 2rem;
+    }
+}
+
+.comment__btn{
+    grid-area: button;
+    width: 10.4rem;
+    height: 4.8rem;
+    background-color: var(--btnEnviar);
+    color: var(--inputComment);
+    border: none;
+    border-radius: .8rem;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 14rem;
+    transition: all 300ms
+}
+
+.comment__btn:hover{
+    transition: all 300ms;
+    background-color: #C5C6EF;
+}
+
+@media(min-width: 768px){
+    .comment__btn{
+        margin: 2rem 1rem 0 0;
+    }
+}
