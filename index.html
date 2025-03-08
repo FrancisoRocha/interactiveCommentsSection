@@ -24,6 +24,39 @@
       <textarea class="comment__text" placeholder="Add a comment..."></textarea>
       <button class="comment__btn" type="submit">send</button>
     </form>
+
+    <!-- COMMENTS SECTION -->
+    <div class="comments__section">
+      <!-- COMMENT 1 -->
+      <div class="comment__box">
+        <div class="comment__content">
+          <img src="./images/avatars/image-amyrobson.png" alt="foto usuario" class="comment__img--user">
+          <p class="comment__user">amyrobson</p>
+          <p class="comment__time">1 month ago</p>
+        </div>
+        <p class="comment__input">
+          Impressive! Though it seems the drag feature could be improved. 
+          But overall it looks incredible. 
+          You’ve nailed the design and the responsiveness at various breakpoints works really well.
+        </p>
+        <div class="comment__actions">
+          <div class="comment__likes--buttons">
+            <button type="button" class="button__plus">
+              <img src="./images/icon-plus.svg" alt="icon plus" class="btn__icon--plus">
+            </button>
+            <span class="comment__likes">12</span>
+            <button type="button" class="button__minus">
+              <img src="./images/icon-minus.svg" alt="icon minus" class="btn__icon--minus">
+            </button>
+          </div>
+            <button type="button" href="#" class="replies">
+              <img src="./images/icon-reply.svg" alt="icon reply" class="icon__reply">
+              <p class="replie">Reply</p>
+            </button>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <script src="./js/app.js" type="module"></script>
