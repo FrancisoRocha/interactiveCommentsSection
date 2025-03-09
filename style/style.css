@@ -48,7 +48,7 @@ body {
 
 .content__comments{
     width: 34.3rem;
-    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el alto de la pantalla */
+    min-height: 100vh;
     background-color: #464343;
     margin: 0 auto;
     display: flex;
