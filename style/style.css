@@ -43,7 +43,7 @@ p {
 }
 
 body {
-    background-color: var(--bg);
+    background-color: #143fed;
 }
 
 .content__comments{
